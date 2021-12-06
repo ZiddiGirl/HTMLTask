@@ -7,8 +7,15 @@
     <title>Application For Permission</title>
 </head>
 <style>
-    .Container .dd{
-        background-color: rgb(17, 196, 202);
+    .btn {
+        background-color: red;
+        color: white;
+        cursor: pointer;
+    }
+
+    .Container .btn{
+        background-color: red;
+        color: white;
     }
 </style>
 <body>
@@ -52,14 +59,15 @@
         <p></p><textarea cols="90" rows="10"></textarea>
         <p><caption>Please upload contact details for 2 references</caption>
     <h3><caption><b><textarea cols="90" rows="10"></textarea>
+        <div class="Container">
         <p><caption>Upload Police Clearance Certificate, Bank Statement nd Medical Certifiates here:</caption>
-        <input type="text" name="" id="" value="Attach Files">
+        <button class="btn"> Attach Files</button>
+        </div>
     </fieldset></b></caption></h3>
-    <div class="Container"><P>
-        <dd>
-            <center><b><input type="send your application" value="Send Your Application"></center>
-            </b>
-        </dd>
+    <div class="Container">
+        <form action="">
+            <center><button class="btn"> Send Your Application </center></button>
+        </form>
     </div>
 </body>
 </html>
